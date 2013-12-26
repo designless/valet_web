@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* ==========================================
+COMMON
+========================================== */
+body {
+	font-size: 16px;
+	font-family: Verdana, Arial, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	line-height: 1.6;
+	background: #fffed7;
+}
+
+a:link,
+a:visited {
+	color: #e73434;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #fc0;
+}
+
+.inner {
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.inner_2 {
+	width: 880px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: block;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom:1;
+}
+
+/* ==========================================
+HEADER
+========================================== */
+#visual {
+	background: url(../images/key_visual.jpg) top center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-bottom: 200px;
+}
+
+#header {
+	padding: 50px 0;
+	background: rgba(255,255,255,.8);
+	height: 50px;
+}
+
+#header .logo {
+	float: left;
+}
+
+#gNav {
+	float: right;
+	width: 600px;
+}
+
+#gNav ul {
+	overflow: hidden;
+}
+
+#gNav ul li {
+	float: left;
+	margin-right: 30px;
+}
+
+#gNav ul li a {
+	display: block;
+}
+
+#gNav ul li a span {
+	text-align: center;
+	font-size: 12px;
+}
+
+#visual h2 {
+	padding-top: 200px;
+}
+
+/* =========================================================
+content
+========================================================= */
+#content {
+}
+
+#service {
+	margin-bottom: 40px;
+}
+
+#service h3 {
+	font-size: 30px;
+	padding-top: 20px;
+	color: #e73434;
+	margin-bottom: 20px;
+}
+
+#service ul {
+	overflow: hidden;
+}
+
+#service ul li {
+	float: left;
+	width: 270px;
+	margin-right: 35px;
+}
+
+#service ul li:last-child {
+	margin-right: 0;
+}
+
+#service ul li h4 {
+	color: #e73434;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+#service ul li img {
+	margin-bottom: 10px;
+}
+
+#service ul li p {
+	line-height: 1.7;
+}
+
+#news {
+	margin-bottom: 40px;
+}
+
+#news h3 {
+	font-size: 30px;
+	color: #e73434;
+}
+
+#news dl {
+}
+
+#news dl dt {
+}
+
+#news dl dd {
+}
+
+#shop_information {
+	margin-bottom: 40px;
+	padding: 40px 0;
+	background: url(../images/bg_top_pattern.png);
+
+}
+
+#shop_information h3 {
+}
+
+#shop_information h3 img {
+}
+
+#shop_information ul {
+	overflow: hidden;
+}
+
+#shop_information ul li {
+	float: left;
+}
+
+#shop_information ul li a {
+}
+
+#shop_information ul li a img {
+}
+
+#footer {
+	background: #e73434;
+}
+
+#footer p {
+	text-align: right;
+	color: #fff;
+	padding-bottom: 100px;
+}
+
+#footer p small {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
